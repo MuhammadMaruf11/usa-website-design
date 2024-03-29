@@ -2,10 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+  font-weight: 400;
+}
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.hover\:text-theme:hover {
+  color: #C81E1E;
+}
+.hover\:bg-theme:hover {
+  background: #C81E1E;
+}
+.before\:bg-theme:before {
+  background: #C81E1E;
+}
+.after\:bg-theme:after {
+  background: #C81E1E;
+}
+.text-theme {
+  color: #C81E1E;
+}
+
+.bg-theme {
+  background: #C81E1E;
+}
+
+.border-theme {
+  border-color: #C81E1E;
 }
